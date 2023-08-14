@@ -1,3 +1,4 @@
 module.exports = function check(str, bracketsConfig) {
-  // your solution
+  const strArr = str.split('');
+  return strArr.every((elem) => elem == bracketsConfig);
 }
